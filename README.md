@@ -12,6 +12,53 @@ To draw the flag with it's correct measurements, I used platform provided by [Ge
 ### Drawing from GeoGebra
 The actual drawing I made in GeoGebra is also available here. To open that .ggb file, you need to open this [webpage](https://www.math10.com/en/geometry/geogebra/fullscreen.html) and simply drag the file to the webpage.
 
+## Vector Drawable XML code
+Here is the code to draw Flag of Nepal as a vector drawable in Android Studio.
+```
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="130.7dp"
+    android:height="130.7dp"
+    android:viewportWidth="130.7"
+    android:viewportHeight="130.7">
+
+    <!-- Blue border -->
+    <path
+        android:fillColor="#0151B3"
+        android:pathData="M 0, 0 L 107.1,67.10 L 39.40,67.10 L 103.00,130.70 H 0 z"
+        android:strokeWidth="0.5" />
+
+    <!-- Red background -->
+    <path
+        android:fillColor="#F7CA2222"
+        android:pathData="M 3.80, 6.90 L 93.80,63.30 L 30.20,63.30 L 93.80,126.90 L 3.80, 126.90 z"
+        android:strokeColor="#011A73" />
+
+    <!-- Crescents of Moon -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M 8.40,42.10 A 17.90,17.90 0 0 0 44.20,42.10 A 17.90, 12.20 0 0 180 8.40, 42.10"
+        android:strokeWidth="0.2"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Angles of Moon -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M 16.17,52.03 L 18,50.5 L 14.9,48.2 L 18.6,47.3 L 16.7,44 L 20.4,44.6 L 19.9,40.8 L 23.1,42.8 L 24,39.1 L 26.3,42.1 L 28.6,39.1 L 29.5,42.8 L 32.7,40.8 L 32.2,44.6 L 35.9,44 L 34,47.3 L 37.7,48.2 L 34.6,50.5 L 36.53,51.93 L26.3,57.5 Z"
+        android:strokeWidth="0.15"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- The Sun -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M 26.3,75.9, L 29.5,83.3, L 35.9,78.5, L 34.9,86.5, L 42.9,85.5, L 38.1,91.9, L 45.5,95.1, L 38.1,98.2, L 42.9,104.7, L 34.9,103.7, L 35.9,111.7, L 29.5,106.9, L 26.3,114.3, L 23.1,106.9, L 16.7,111.7, L 17.7,103.7, L 9.7,104.7, L 14.5,98.2, L 7.1,95.1, L 14.5,91.9, L 9.7,85.5, L 17.7,86.5, L 16.7,78.5, L 23.1,83.3 Z"
+        android:strokeWidth="0.1"
+        android:strokeColor="#FFFFFF" />
+
+</vector>
+```
+
+
 ## Drawing Method described by Constitution of Nepal
 This is the method to draw Nepal's flag correctly, which is outlined in Schedule-1 of Nepal's Constitition of 2015.
 
