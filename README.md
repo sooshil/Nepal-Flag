@@ -92,3 +92,6 @@ This is the method to draw Nepal's flag correctly, which is outlined in Schedule
 23. The width of the border will be equal to the width of TN. This will be of deep blue color and will be provided on all the sides of the flag. However, on the given angles of the flag the external angles will be equal to the internal angles.
 24. The above mentioned border will be provided if the flag is to be used with a rope. On the other hand, if it is to be hoisted on a pole, the hole on the border on the side AC can be extended according to requirements.
 #### Explanation:- The lines HI, RS, FE, ED, JG, OQ, JK and UV are imaginary. Similarly, the external and internal circles of the sun and the other arcs except the crescent moon are imaginary. These are not shown on the flag.
+
+
+#### If you find this helpful, please consider giving it a star. If you would like to make any updates, feel free to create a pull request. If you encounter any issues, please don't hesitate to create an issue. Thank you. Enjoy!!
