@@ -5,7 +5,7 @@ As the only national flag in the world that is not rectangular or square in shap
 [<img src="https://github.com/sooshil/Nepal-Flag/blob/main/Flag%20of%20Nepal.png" width="300"/>](https://github.com/sooshil/Nepal-Flag/blob/main/Flag%20of%20Nepal.png?raw=true)
 
 ## Size and Dimension
-The size and dimensions of Nepal's flag, along with the step-by-step procedure for drawing it, are outlined in Schedule-1 of Nepal's Constitution of 2015. The same procedure and measurements used to draw this flag.
+The size and dimensions of Nepal's flag, along with the step-by-step procedure for drawing it, are outlined in Schedule-1 of Nepal's Constitution of 2015. The same procedure and measurements was used to draw this flag.
 
 ## Drawing techniques
 To draw the flag with it's correct measurements, I used platform provided by [GeoGebra](https://www.geogebra.org/). GeoGebra has [tool](https://www.geogebra.org/geometry) or [this](https://www.math10.com/en/geometry/geogebra/fullscreen.html) where we can draw any mathematical object with great accuracy and precision. From there I got the coordinates of the points I need to draw the flag in vector drawable xml file. Then I drew it using Android studio with the path through the coordinates.
